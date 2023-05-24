@@ -1,0 +1,16 @@
+api: https://10.10.1.202:9200
+username: elastic
+password: elastic
+index: logstash
+pods:
+  - adservice
+  - cartservice
+  - checkoutservice
+  - currencyservice
+  - emailservice
+  - frontend
+  - paymentservice
+  - productcatalogservice
+  - recommendationservice
+  - redis
+  - shippingservice
